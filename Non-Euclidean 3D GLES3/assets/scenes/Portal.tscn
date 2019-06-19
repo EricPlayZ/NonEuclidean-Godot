@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="Shader" id=1]
+resource_local_to_scene = true
+code = "shader_type spatial;
+render_mode unshaded;
+uniform sampler2D texture_albedo : hint_albedo;
+
+void vertex() {
+}
+
+void fragment() {
+	vec2 base_uv = SCREEN_UV;
+	vec4 albedo_tex = texture(texture_albedo,base_uv);
+	ALBEDO = albedo_tex.rgb;
+	ALBEDO = pow(ALBEDO, vec3(2.2));
+}
+"
+
+[sub_resource type="ShaderMaterial" id=2]
+resource_local_to_scene = true
+shader = SubResource( 1 )
+
+[sub_resource type="QuadMesh" id=3]
+size = Vector2( 4, 7 )
+
+[node name="Portal" type="Spatial"]
+
+[node name="CameraHolder" type="Spatial" parent="."]
+
+[node name="Viewport" type="Viewport" parent="."]
+
+[node name="Camera" type="Camera" parent="Viewport"]
+current = true
+fov = 60.0
+far = 500.0
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+material_override = SubResource( 2 )
+mesh = SubResource( 3 )
+material/0 = null
