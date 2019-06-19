@@ -34,7 +34,7 @@ Godot isn't capable of Non-Euclidean spaces yet.
 
 ## Compiled binaries
 
-If you want to play the game on Windows, Linux or Mac OSX, I have already compiled them in the [bin](bin) folder.
+If you want to play the game on Windows, Linux or Mac OSX, I have already compiled them in the [bin GLES3](Non-Euclidean 3D GLES3/bin) folder or [bin GLES2](Non-Euclidean 3D GLES2/bin) folder.
 
 ## How it works
 
