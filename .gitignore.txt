@@ -1,0 +1,5 @@
+# Specific for Godot
+Non-Euclidean-3D-GLES2-Low-End/.import/
+Non-Euclidean-3D-GLES2-Low-End/CHANGELOG.md
+Non-Euclidean-3D-GLES3/CHANGELOG.md
+Non-Euclidean-3D-GLES3/.import/
