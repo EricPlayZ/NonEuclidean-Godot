@@ -26,7 +26,7 @@ Godot isn't capable of Non-Euclidean spaces yet.
 ## Features
 
 - [x] Fake Non-Euclidean space
-- [ ] Textures for low-end computers (will add very soon)
+- [x] Textures for low-end computers
 - [ ] Stop rendering other viewports when player behind a wall (performance wise)
 - [ ] Seamless player teleportation
 - [ ] Be able teleport any body through the portal seamlessly
@@ -34,7 +34,7 @@ Godot isn't capable of Non-Euclidean spaces yet.
 
 ## Compiled binaries
 
-If you want to play the game on Windows, Linux or Mac OSX, I have already compiled them in the [bin GLES3]("Non-Euclidean 3D GLES3/bin") folder or [bin GLES2]("Non-Euclidean 3D GLES2/bin") folder.
+If you want to play the game on Windows, Linux or Mac OSX, I have already compiled them in the bin folder of each project folder.
 
 ## How it works
 
