@@ -27,7 +27,7 @@ Godot isn't capable of Non-Euclidean spaces yet.
 
 - [x] Fake Non-Euclidean space
 - [x] Textures for low-end computers (GLES2)
-- [ ] Stop rendering other viewports when player behind a wall (performance wise)
+- [ ] Stop rendering other viewports when player behind an object (occlusion culling)
 - [ ] Seamless player teleportation
 - [ ] Be able teleport any body through the portal seamlessly
 - [ ] Actual Non-Euclidean space (would most probably never happen, but who knows ¯\_(ツ)_/¯)
