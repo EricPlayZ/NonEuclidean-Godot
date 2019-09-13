@@ -5,6 +5,7 @@ written in GDScript.
 To see what this is about, check this out: https://www.youtube.com/watch?v=xQ1b8cmUa8w .
 Obviously, this is a fake Non-Euclidean space.
 Godot isn't capable of Non-Euclidean spaces yet.
+Also, just mentioning: this project was poorly done, just demonstrating what I could do with io12's godot portal demo (https://github.com/io12/godot-portal-demo).
 
 ![screenshot](screenshot.jpg)
 
