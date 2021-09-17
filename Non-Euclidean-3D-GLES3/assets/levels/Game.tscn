@@ -1098,7 +1098,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="ShowControls" type="Label" parent="HelpControl/VBoxContainer"]
-margin_right = 1366.0
+margin_right = 1920.0
 margin_bottom = 21.0
 custom_fonts/font = SubResource( 57 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
