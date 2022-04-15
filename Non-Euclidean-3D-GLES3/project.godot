@@ -10,7 +10,6 @@ config_version=4
 
 _global_script_classes=[  ]
 _global_script_class_icons={
-
 }
 
 [application]
@@ -25,8 +24,8 @@ EditorCameraProvider="*res://addons/editor_camera_provider/plugin.gd"
 
 [display]
 
-window/size/width=1366
-window/size/height=768
+window/size/width=1920
+window/size/height=1080
 window/size/fullscreen=true
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
